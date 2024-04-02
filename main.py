@@ -143,6 +143,7 @@ def send_confirmation_email(email, name):
 
     # Attach the HTML email body
     msg.attach(MIMEText(email_template, 'html'))
+    #88888
 
     # Send the confirmation email using Gmail's SMTP server
     try:
