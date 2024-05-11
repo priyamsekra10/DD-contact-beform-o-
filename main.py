@@ -127,7 +127,7 @@ def send_confirmation_email(email, name):
     smtp_port = 587
     smtp_username = 'beformofficial@gmail.com'  # Gmail sender email
     smtp_password = 'mebvntozhivhgpts'  # Replace with your Gmail password
-
+# sdf
     # Load the HTML email template
     with open('DD (contact).html', 'r') as file:
         email_template = file.read()
